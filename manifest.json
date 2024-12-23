@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "NoReact",
+    "version": "0.1.0",
+
+    "description": "Blocks all reaction video YouTube channels from your YouTube feed.",
+
+    "content_scripts": [
+        {
+            "matches": [ "*://*.youtube.com/" ],
+            "js": [ "src/homepage.js" ]
+        },
+        {
+            "matches": ["*://youtube.com/watch?v=*"],
+            "js": ["src/watch.js"]
+        }
+    ]
+}

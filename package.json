@@ -1,0 +1,10 @@
+{
+  "name": "NoReact",
+  "version": "1.0.0",
+  "description": "Takes attention away from the lazy, and gives it to the hard workers.",
+  "main": "index.js",
+  "repository": "https://github.com/loureir-or-not/NoReact",
+  "author": "Renato Loureiro <loureiror@proton.me>",
+  "license": "3BSD",
+  "private": false
+}
